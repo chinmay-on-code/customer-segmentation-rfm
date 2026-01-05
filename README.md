@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📊 Customer Segmentation Using RFM Analysis
 ## 📌 Project Overview
 
@@ -151,7 +150,5 @@
 ## Action: Applied RFM analysis using Python and transactional data
 
 ## Result: Identified high-value and churn-risk customer segments to enable targeted marketing strategies
-=======
 # customer-segmentation-rfm
 Customer segmentation using RFM (Recency, Frequency, Monetary) analysis on retail transaction data to identify high-value, loyal, and churn-risk customers for targeted marketing.
->>>>>>> 2caee111bde6bd4ee30f09094be229963026eaac
