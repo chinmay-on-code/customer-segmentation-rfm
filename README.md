@@ -9,15 +9,15 @@ Using Python-based data analytics and business logic, customers were segmented i
 The analysis translates raw transaction-level data into strategic business insights, enabling improved customer lifetime value (CLV), churn mitigation, and marketing ROI enhancement.
 
 ## Business Problem
-The organization lacked customer-level visibility into purchasing behavior and revenue contribution. As a result:
+- The organization lacked customer-level visibility into purchasing behavior and revenue contribution. As a result:
 
-Marketing campaigns were generic and inefficient
+- Marketing campaigns were generic and inefficient
 
-High-value customers were not prioritized
+- High-value customers were not prioritized
 
-Churn-risk customers were not proactively identified
+- Churn-risk customers were not proactively identified
 
-Revenue concentration risk was not understood
+- Revenue concentration risk was not understood
 
 ### Key Business Question
  How can we segment customers based on behavioral and monetary patterns to enable data-driven decision-making and maximize profitability?
@@ -27,146 +27,146 @@ A structured, analytics-driven approach was followed:
 
 ### 🔹 Data Preparation & Cleaning
 
-Removed missing customer identifiers
+- Removed missing customer identifiers
 
-Excluded cancellations and negative transactions
+- Excluded cancellations and negative transactions
 
-Engineered total transaction value feature
+- Engineered total transaction value feature
 
-Converted date fields for time-based analysis
+- Converted date fields for time-based analysis
 
 ### 🔹 Exploratory Data Analysis (EDA)
 
-Analyzed transaction distribution
+- Analyzed transaction distribution
 
-Evaluated missing data patterns
+- Evaluated missing data patterns
 
-Assessed revenue spread and customer concentration
+- Assessed revenue spread and customer concentration
 
 ### 🔹 RFM Metric Engineering
 
 For each customer:
 
-Recency: Days since last purchase
+- Recency: Days since last purchase
 
-Frequency: Number of unique purchase transactions
+- Frequency: Number of unique purchase transactions
 
-Monetary: Total customer spend
+- Monetary: Total customer spend
 
 ### 🔹 Scoring & Segmentation
 
-Applied quartile-based scoring (1–4 scale)
+- Applied quartile-based scoring (1–4 scale)
 
-Generated composite RFM score
+- Generated composite RFM score
 
-Designed business-relevant segmentation logic
+- Designed business-relevant segmentation logic
 
-Segments Created:
+- Segments Created:
 
-Champions
+- Champions
 
-Loyal Customers
+- Loyal Customers
 
-At-Risk Customers
+- At-Risk Customers
 
-Others
+- Others
 
 ### 🔹 Segment-Level Performance Analysis
 
-Customer distribution analysis
+- Customer distribution analysis
 
-Revenue contribution comparison
+- Revenue contribution comparison
 
-Behavioral trend assessment
+- Behavioral trend assessment
 
 ## Skills
 ### Technical Skills
-Python
+- Python
 
-Pandas
+- Pandas
 
-NumPy
+- NumPy
 
-Data Cleaning & Feature Engineering
+- Data Cleaning & Feature Engineering
 
-Exploratory Data Analysis (EDA)
+- Exploratory Data Analysis (EDA)
 
-Customer Segmentation
+- Customer Segmentation
 
-RFM Modeling
+- RFM Modeling
 
-Data Visualization (Excel / Tableau / Matplotlib)
+- Data Visualization (Excel / Tableau / Matplotlib)
 
-Git & Version Control
+- Git & Version Control
 
 ### Analytical & Business Skills
-Marketing Analytics
+- Marketing Analytics
 
-Customer Lifetime Value Analysis
+- Customer Lifetime Value Analysis
 
-Revenue Optimization Strategy
+- Revenue Optimization Strategy
 
-Data-Driven Decision Making
+- Data-Driven Decision Making
 
-Stakeholder Communication
+- Stakeholder Communication
 
-Business Insight Generation
+- Business Insight Generation
 
 ## Results & Business Recommendation
 ### 🔎 Key Findings
 ![Customer Count Bar Chart](1.png)
 ![Revenue Contribution Chart](2.png)
 
-A small percentage of customers contribute a disproportionately high share of revenue
+- A small percentage of customers contribute a disproportionately high share of revenue
 
-High-recency, high-frequency customers drive revenue stability
+- High-recency, high-frequency customers drive revenue stability
 
-At-risk customers show measurable decline in engagement
+- At-risk customers show measurable decline in engagement
 
-Revenue concentration indicates dependency on premium customer cohorts
+- Revenue concentration indicates dependency on premium customer cohorts
 
 ### 📈 Strategic Recommendations
 #### For Champions:
 
-Implement VIP loyalty programs
+- Implement VIP loyalty programs
 
-Offer early access and personalized rewards
+- Offer early access and personalized rewards
 
-Strengthen relationship marketing
+- Strengthen relationship marketing
 
 #### For Loyal Customers:
 
-Upsell and cross-sell opportunities
+- Upsell and cross-sell opportunities
 
-Personalized retention campaigns
+- Personalized retention campaigns
 
 #### For At-Risk Customers:
 
-Re-engagement email campaigns
+- Re-engagement email campaigns
 
-Targeted discount offers
+- Targeted discount offers
 
-Churn prevention strategies
+- Churn prevention strategies
 
 #### Expected Impact:
 
-Improved customer retention
+- Improved customer retention
 
-Increased marketing efficiency
+- Increased marketing efficiency
 
-Enhanced customer lifetime value
+- Enhanced customer lifetime value
 
-Optimized marketing spend allocation
+- Optimized marketing spend allocation
 
 ## Next Steps
-To further enhance analytical depth and business impact:
+- To further enhance analytical depth and business impact:
 
-Integrate Customer Lifetime Value (CLV) modeling
+- Integrate Customer Lifetime Value (CLV) modeling
 
-Deploy SQL-based automation pipeline
+- Deploy SQL-based automation pipeline
 
-Develop real-time segmentation dashboard
+- Develop real-time segmentation dashboard
 
-Incorporate campaign response data for uplift modeling
+- Incorporate campaign response data for uplift modeling
 
-Implement predictive churn modeling
+- Implement predictive churn modeling
